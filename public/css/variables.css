@@ -1,0 +1,19 @@
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--dark-gray: #46484A;
+	--gray-hover: #565758;
+	--green: #00D646;
+	--green-hover: #06e751;
+	--blue: #80FAFF;
+	--blue-hover: #77f9fd;
+	--purple: #DC378A;
+	--purple-hover: #df3e8e;
+	--yellow: #CCE32E;
+	--yellow-hover: #cce435;
+	--link: #A0B7CA;
+	--inside-item: #3e4144;
+	--responseColor: #484a4e;
+	--danger: #dc3545;
+	--danger-hover: #dc3546d2;
+}

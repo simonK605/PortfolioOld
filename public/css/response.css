@@ -1,0 +1,338 @@
+@media only screen and (max-width: 1450px) {
+    .loader__gif {
+        transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        -ms-transform: scale(0.75);
+        -o-transform: scale(0.75);
+    }
+    .home-header__list {
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+    .header__btn_cont {
+        margin-right: 5px;
+    }
+    .header__item {
+        margin-left: 20px;
+    }
+    .header__mobile-item {
+        margin-left: 0;
+    }
+    .headert__nav {
+        display: none;
+    }
+    .header__burger-menu {
+        display: flex;
+        position: absolute;
+        right: 0;
+    }
+    .header__btn_cont {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 985px) {
+    .wrapper {
+        width: 95%;
+    }
+    .home__cont_img {
+        display: none;
+    }
+    .home__btn {
+        animation: btnScale .5s linear infinite;
+        -webkit-animation: btnScale .5s linear infinite;
+    }
+    .skills__item {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skills__item_info {
+        width: auto;
+        text-align: unset;
+    }
+    .skills__item_line_cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills__item_line {
+        margin: 2px 0;
+    }
+    .skills__item {
+        margin-bottom: 25px;
+    }
+    .skills__item:last-child {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .home__cont {
+        width: 100%;
+        padding: 60px;
+    }
+    .home__cont_info {
+        margin: 60px 0;
+    }
+    #canvas{
+        display: none;
+    }
+    .educ-exper__cont {
+        display: none;
+    }
+    .educ-exper-mob__cont {
+        display: flex;
+    }
+    .educ-exper-mob__item_arrow {
+        position: unset;
+    }
+    .educ-exper-mob__item_title {
+        height: auto;
+        flex-direction: column;
+    }
+    .educ-exper-mob__item_name {
+        margin: 0 0 10px 0;
+    }
+    /* 
+    contact 
+    */
+    .form__input,
+    .form__btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .form__name,
+    .form__email {
+        width: calc(50% - 15px);
+    }
+    .form__text {
+        padding-bottom: 200px;
+    }
+    .form__message,
+    .form__btn {
+        margin-top: 20px;
+    }
+    /*
+    sign
+    */
+    .sign__inp {
+        padding: 10px 10px 5px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .home__resumes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home__cont_link-download{
+        margin: 10px 0 0 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .span__letter {
+        letter-spacing: -11px;
+    }
+    .loader__gif {
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+    }
+    section {
+        padding: 100px 0;
+    }
+    .title {
+        margin-bottom: 70px;
+    }
+    .home__title {
+        font-size: 53px;
+    }
+    .home__subtitle {
+        font-size: 17px;
+        margin: 60px 0;
+    }
+    .home__cont {
+        padding: 40px;
+    }
+    .home__cont_info {
+        height: 90px;
+        margin: 40px 0;
+    }
+    .home__info_item {
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .title__head {
+        font-size: 38px;
+    }
+    .subtitle {
+        font-size: 19px;
+        margin-top: 25px;
+    }
+    .educ-exper-mob__item_name {
+        font-size: 19px;
+    }
+    .certific-projects__cont {
+        flex-direction: column;
+    }
+    .certific-projects__item {
+        width: 100%;
+    }
+    .certific-projects__item:nth-child(2n) {
+        margin-top: 30px;
+    }
+    .educ-exper__cont_bot {
+        text-align: center;
+    }
+    .certific-projects__item_ugeek{
+        margin-left: 0;
+    }
+    /* 
+    contact 
+    */
+    .form__name-email {
+        flex-wrap: wrap;
+    }
+    .form__input {
+        width: 100%;
+    }
+    .form__email {
+        margin-top: 20px;
+    }
+    /* 
+    portfolio page 
+    */
+    .projects-page__cont {
+        flex-wrap: wrap;
+    }
+    .projects-page__box {
+        width: 100%;
+    }
+    /*
+    sign
+    */
+    .sign_title {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .sign__cont {
+        width: 95%;
+        padding: 20px 25px;
+    }
+    .sign_title {
+        font-size: 20px;
+    }
+    .sign__inp {
+        padding: 7px 7px 5px;
+        font-size: 15px;
+        border-bottom: 2px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .home__cont {
+        padding: 20px;
+    }
+    .home__cont_info {
+        margin: 10px 0 15px;
+        height: 60px;
+    }
+    .home__info_item {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .home__logo {
+        transform: scale(0.6);
+    }
+    .projects__btn_link,
+    .home__cont_link {
+        border-radius: 13px;
+        -webkit-border-radius: 13px;
+        -moz-border-radius: 13px;
+        -ms-border-radius: 13px;
+        -o-border-radius: 13px;
+    }
+    .btn {
+        width: 160px;
+        font-size: 14px;
+        padding: 10px 0;
+        border-radius: 13px;
+        -webkit-border-radius: 13px;
+        -moz-border-radius: 13px;
+        -ms-border-radius: 13px;
+        -o-border-radius: 13px;
+    }
+    .home__btn {
+        width: 140px;
+        font-size: 14px;
+        padding: 8px 0;
+    }
+    .skills__item_line {
+        height: 11px;
+    }
+    .skills__item_info,
+    .home__resumes > a > .btn{
+        font-size: 15px;
+    }
+    .educ-exper__cont_title {
+        font-size: 17px;
+    }
+    .footer__inside {
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .title__head {
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+    .subtitle {
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    .home__subtitle {
+        letter-spacing: 3px;
+    }
+    .form__text {
+        padding-bottom: 130px;
+    }
+    .scroll-top {
+        bottom: 10px;
+        right: 5px;
+    }
+    .header__panel {
+        width: 50px;
+        height: 50px;
+        margin: 10px 5px 0 0;
+    }
+    .scroll-top__arrow {
+        font-size: 50px;
+    }
+    /*
+    sign
+    */
+    .sign__form {
+        margin-top: 20px;
+    }
+    .sign_title {
+        font-size: 20px;
+    }
+    .sign__btn {
+        width: 100%;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    section {
+        padding: 70px 0;
+    }
+    .home__title {
+        font-size: 50px;
+    }
+}
